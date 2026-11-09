@@ -1,0 +1,6 @@
+# Simulation + RL (PyTorch comes from the cloned `ml` conda env)
+mujoco>=3.2
+numpy
+gymnasium>=1.0
+stable-baselines3>=2.3
+pytest
