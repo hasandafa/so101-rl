@@ -1,0 +1,13 @@
+so101-rl
+Copyright 2026 Abdullah Hasan Dafa
+
+This repository includes robot description files (URDF, MJCF) and STL meshes
+from the SO-ARM100 project by TheRobotStudio
+(https://github.com/TheRobotStudio/SO-ARM100), licensed under the
+Apache License, Version 2.0.
+
+  Location in this repo : assets/so101/
+  Upstream path         : Simulation/SO101/
+  Upstream commit       : a758567c3978dfeefe282ede0500085a48fe8f78
+
+The upstream files are included unmodified. See assets/so101/SOURCE.md.

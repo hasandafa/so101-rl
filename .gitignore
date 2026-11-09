@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Generated outputs (CSV, plots, reports) - regenerate with the scripts
+outputs/
+
+# Training artifacts - final policy is published as a GitHub Release, not committed
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.zip
+*.npz
+
+# ROS 2 workspace build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# MuJoCo / Octave
+MUJOCO_LOG.TXT
+octave-workspace
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
